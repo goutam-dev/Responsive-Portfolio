@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head></head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <div class="name"><a href="#">Goutam</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact-section">Contact</a></li>
+          <li>
+            <a href="https://github.com/goutam-dev" target="_blank"
+              ><i id="github" class="ri-github-fill"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="Home" class="Home">
+      <div class="container">
+        <div class="text">
+          <p class="subtitle">Hi, I am</p>
+          <h1 id="name" class="name">Goutam</h1>
+          <p class="subtitle">a Computer Science Student</p>
+          <div class="button">
+            <div class="hire_me">Hire Me</div>
+          </div>
+        </div>
+        <div class="img">
+          <img src="assets/Profile.png" alt="Profile" />
+        </div>
+      </div>
+    </section>
+
+    <section id="About" class="About">
+      <div class="container">
+        <div class="Heading">
+          <h1>About me</h1>
+        </div>
+        <div class="content">
+          <div class="left"><img src="assets/Profile.png" alt="Profile" /></div>
+          <div class="right">
+            Hi, I’m Goutam, a third-year Computer Science student from Sukkur,
+            aiming to become a full-stack developer. I have experience in Java,
+            C++, HTML, CSS, and JavaScript, and enjoy building efficient,
+            user-friendly applications. I’m passionate about solving problems,
+            optimizing code, and constantly learning new technologies to enhance
+            my skills. I'm excited to work on projects that combine both
+            frontend and backend development for seamless web experiences.
+            <a href="#projects">
+              <div id="Explore" class="button">Explore My Projects</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="skills-container">
+        <h2>Skills</h2>
+        <p>
+          I'm proficient in a range of technologies used for front-end and
+          back-end development. From crafting clean and responsive user
+          interfaces to writing efficient code for performance optimization,
+          these are the tools I work with:
+        </p>
+        <div class="skills-grid">
+          <div class="skill">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/732/732212.png"
+              alt="HTML"
+            />
+            <h3>HTML</h3>
+          </div>
+          <div class="skill">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/732/732190.png"
+              alt="CSS"
+            />
+            <h3>CSS</h3>
+          </div>
+          <div class="skill">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
+              alt="JavaScript"
+            />
+            <h3>JavaScript</h3>
+          </div>
+          <div class="skill">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/919/919851.png"
+              alt="React"
+            />
+            <h3>React</h3>
+          </div>
+          <div class="skill">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/226/226777.png"
+              alt="Java"
+            />
+            <h3>Java</h3>
+          </div>
+          <div class="skill">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png"
+              alt="C++"
+            />
+            <h3>C++</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="title"><h1>Projects</h1></div>
+        <div class="project-Content">
+          <div class="project-box">
+            <div class="project-title">
+              <div class="title-image">
+                <img src="assets/SMS.png" alt="Java" />
+              </div>
+              <h3>Student Management System</h3>
+            </div>
+            <div class="desc">
+              <p>
+                This project is a console-based Java application that helps
+                manage student data such as name, age, class, and grades. The
+                system supports adding new students, editing existing records,
+                deleting students, and retrieving detailed information about
+                each student. The data is stored in text files, and the system
+                is ideal for small-scale student management needs.
+              </p>
+            </div>
+          </div>
+          <div class="project-box">
+            <div class="project-title">
+              <div class="title-image">
+                <img src="assets/LMS.png" alt="Java" />
+              </div>
+              <h3>Library Management System</h3>
+            </div>
+            <div class="desc">
+              <p>
+                A Java-based Library Management System where users can issue
+                books, return books, and manage the list of books available in
+                the library. The system allows for easy management of book
+                inventories, student information, and book lending history. The
+                backend is connected to an SQL database, ensuring persistent
+                data storage.
+              </p>
+            </div>
+          </div>
+          <div class="project-box">
+            <div class="project-title">
+              <div class="title-image">
+                <img src="assets/Quiz.png" alt="Java" />
+              </div>
+              <h3>Java Quiz Application</h3>
+            </div>
+            <div class="desc">
+              <p>
+                A quiz application built using Java, where users can take
+                quizzes on various topics like programming, general knowledge,
+                or custom-created topics. The application supports
+                multiple-choice questions with instant feedback, a final score,
+                and a timer for each question. The UI is implemented with Java
+                Swing, offering an interactive and user-friendly experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact-section">
+      <div class="container">
+        <h1>Contact Me</h1>
+        <p>
+          Have a question or want to work together? Feel free to drop me a
+          message!
+        </p>
+
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              required
+              contenteditable="true"
+            ></textarea>
+          </div>
+
+          <div class="button-submit">
+            <button type="submit">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer-bottom">
+      &copy; 2024 Goutam | All Rights Reserved
+    </footer>
+  </body>
+</html>
